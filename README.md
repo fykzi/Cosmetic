@@ -10,8 +10,8 @@ localhost:8000/api/products/Perfumes/ - товары из категории д�
 
 Фильтры:
   Кремы:
-    brand - принимает: Levrana, Ecolab, Chocolatte, Cafe_Mimi
-    price
+    brand - принимает: Levrana, Ecolab, Chocolatte, Cafe_Mimi;
+    price;
     cream_for - принимает: child, woman, man;
     type_of_derm - принимает: dry, fat, old, sens, comb;
   
