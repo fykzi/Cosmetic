@@ -1,8 +1,10 @@
 from django.urls import path
 
-from catalog.api import CreamsAPiView
+from catalog.api import CreamsAPi, PerfumesAPi, CategoryApi
 
 
 urlpatterns = [
-    path("products/", CreamsAPiView.as_view()),
+    path("products/Creams/", CreamsAPi.as_view()),
+    path("products/Perfumes/", PerfumesAPi.as_view()),
+    path("<category>/", CategoryApi.as_view()),
 ]
